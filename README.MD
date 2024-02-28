@@ -19,7 +19,7 @@ I commited the `.env` file for the `JWT` secret and `database creds`. I ususally
 1. `cd` into `abode_frontend`
 2. run `npm i && npm run start`
 
-### Project Info
+## Project Info
 
 Once you start the backend and frontend, a browser should pop up at `localhost:3000/signin`. I added in `JWT` authentication, so you will need to sign up first, then sign in so you can access the events screen. I tried to make the implementation of the front end and back end pretty minimal and straight forward. I used materialUI for components.
 
