@@ -4,12 +4,7 @@ import TextField from "@mui/material/TextField";
 import { createEvent } from "../api/events";
 import { Button } from "@mui/material";
 import { useAuth } from "../hooks/authProvider";
-
-type CreateEventType = {
-  title: string;
-  description: string;
-  eventDate: Date | string;
-};
+import { CreateEventType } from "../types";
 
 type CreateEventProps = {
   fetchEvents: () => void;

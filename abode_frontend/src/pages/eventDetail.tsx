@@ -12,13 +12,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import { Event } from "../types";
-
-type CreateEventType = {
-  title: string;
-  description: string;
-  eventDate: Date | string;
-};
+import { Event, CreateEventType } from "../types";
 
 export default function EventDetails() {
   const location = useLocation();

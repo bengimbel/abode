@@ -21,3 +21,9 @@ export type Event = {
 export type Auth = {
   token: string
 }
+export type CreateEventType = {
+  title: string;
+  description: string;
+  eventDate: Date | string;
+};
+

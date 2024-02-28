@@ -10,10 +10,12 @@ import {
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { deleteEvent } from "../api/events";
+
 type EventProps = {
   event: Event;
   fetchEvents: () => void;
 };
+
 export const EventItem = ({ event, fetchEvents }: EventProps) => {
   const navigate = useNavigate();
 
