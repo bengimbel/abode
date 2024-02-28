@@ -9,7 +9,8 @@ I commited the `.env` file for the `JWT` secret and `database creds`. I ususally
 ### Install Instructions
 
 1. `cd` into `abode_api`
-2. run `npm i && npm run start:dev`
+2. run `npm i && npm run db:dev:restart`
+3. run `npm run start:dev`
 
 ## Abode Frontend
 
